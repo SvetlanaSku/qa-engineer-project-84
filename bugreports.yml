@@ -1,18 +1,5 @@
 ---
 - summary: |
-    Не работает строка поиска
-  environment: |
-    https://hexlet-products-store.vercel.app/
-    PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
-  steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Ввести данные в строку поиска для проверки - "mobile"   
-  expected-result: |
-    Должен быть выполнен поиск товара по ключевому слову, найдены товары    
-  actual-result: |
-    Получили ответ: Nothing found!
-    
-- summary: |
     При загрузке сайта открывается английская версия
   environment: |
     https://hexlet-products-store.vercel.app/
