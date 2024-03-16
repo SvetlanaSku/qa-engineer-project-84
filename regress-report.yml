@@ -1,1 +1,93 @@
+---
+- summary: |
+    Проверка поиска товара по ключевому слову
+  status: pass
 
+- summary: |
+    Проверка переключения языка на сайте
+  status: fail
+
+  - summary: |
+    Проверка функции добавления товара в корзину
+  status: pass
+
+- summary: |
+    Оформление заказа
+  status: fail
+
+  - summary: |
+    Проверка фильтрации товара по категории из выпадающего списка
+  status: pass
+
+- summary: |
+    Проверка фильтрации товара по производителям из списка чек-боксов
+  status: fail
+
+  - summary: |
+    Проверка адаптивности сайта для мобильного устройства
+  status: pass
+
+- summary: |
+    Проверка работы кнопок перелистывания товара
+  status: pass
+
+  - summary: |
+    Проверка работы кнопки "Очистить корзину" 
+  status: fail
+    
+bugreports:
+  - summary: |
+      Не работает фильтр по производителю
+    environment: |
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
+    steps-to-reproduce: |
+      Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      Отмечаем галочкой при помощи нажатия чек-бокса
+      Выбираем 1, 2 и более производителей
+    expected-result: |
+      Сайт должен отобразить товары выбранных производителей и убрать фильтрацию при отмене
+    actual-result: |
+      Фильтрации товара не происходит
+
+  - summary: |
+      Не работает фильтр по категориям
+    environment: |
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
+    steps-to-reproduce: |
+      Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      Нажимаем кнопку с выпадающим списком
+      Выбираем любую категорию
+    expected-result: |
+      Сайт должен отобразить товары выбранных категорий и убрать фильтрацию при отмене
+    actual-result: |
+      Фильтрации товара не происходит
+
+  - summary: |
+      Не открывается карточка товара при нажатии на название товара
+    environment: |
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
+    steps-to-reproduce: |
+      Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      Нажать на название товара
+    expected-result: |
+      Открыта карточка товара
+    actual-result: |
+      Карточка товара не открывается
+
+  - summary: |
+      Пропадает кнопка перелистывания товара
+    environment: |
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
+    steps-to-reproduce: |
+      Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      Нажимаем кнопку с выпадающим списком
+      Выбираем любую категорию
+      Выбираем пустое поле для отмены фильтрации
+    expected-result: |
+      Каталог можно перелистывать с помощью кнопки "Следующая"/"Next"
+    actual-result: |
+      Кнопка "Следующая"/"Next" пропала
