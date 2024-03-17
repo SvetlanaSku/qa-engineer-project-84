@@ -91,3 +91,33 @@ bugreports:
       Каталог можно перелистывать с помощью кнопки "Следующая"/"Next"
     actual-result: |
       Кнопка "Следующая"/"Next" пропала
+
+  - summary: |
+      Не работает рагистрация через GitHub 
+    environment: |
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
+    steps-to-reproduce: |
+      Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      Нажимаем кнопку "Loggin in" 
+      Нажать продолжить c GitHub       
+    expected-result: |
+      Регистрация пройдена
+    actual-result: |
+      Пишет:Уже существует учетная запись, связанная с вашим адресом электронной почты GitHub
+      Ошибка изображена на скриншоте Регистрация git Hab.PNG
+
+  - summary: |
+      Не работает рагистрация через GitLab 
+    environment: |
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
+    steps-to-reproduce: |
+      Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      Нажимаем кнопку "Loggin in" 
+      Нажать продолжить работу c Gitlab       
+    expected-result: |
+      Регистрация пройдена
+    actual-result: |
+      Регистрация в РФ невозможна
+      Ошибка изображена на скриншоте Регистрация gitLab.PNG
