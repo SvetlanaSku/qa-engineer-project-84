@@ -10,7 +10,7 @@
     запрос = mobile
   steps:
     - Вводим в поле поиска: mobile
-   expected-result: |
+  expected-result: |
     Страница должна отобразить все товары по ключевому слову в названии
 
 - summary: |
