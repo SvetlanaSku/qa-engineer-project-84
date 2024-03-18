@@ -5,7 +5,7 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    пройти по ссылке на сайт https://hexlet-products-store.vercel.app/
+    - Пройти по ссылке на сайт https://hexlet-products-store.vercel.app/
   expected-result: |
     Должен открыться сайт на русском языке, так как пользователь находится в РФ
   actual-result: |
@@ -17,7 +17,7 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Пройти по ссылке на сайт https://hexlet-products-store.vercel.app/
+    - Пройти по ссылке на сайт https://hexlet-products-store.vercel.app/
   expected-result: |
     Цены отображаются в рублях
   actual-result: |
@@ -29,8 +29,8 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Нажать на кнопку "Language" с выпадающим списком и выбрать "Russian"
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Нажать на кнопку "Language" с выпадающим списком и выбрать "Russian"
   expected-result: |
     Интерфейс сайта и названия товара должны переключиться на русский язык
   actual-result: |
@@ -43,8 +43,8 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Нажать на кнопку "Language"/"Язык" с выпадающим списком
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Нажать на кнопку "Language"/"Язык" с выпадающим списком
   expected-result: |
     Картинки с изображением флагов должны быть корректны
   actual-result: |
@@ -56,10 +56,10 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Нажать на кнопку "Language" с выпадающим списком и выбрать "Russian"
-    Нажать на кнопку "Категория" с выпадающим списком
-    Нажать на кнопку "Следующая" несколько раз     
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Нажать на кнопку "Language" с выпадающим списком и выбрать "Russian"
+    - Нажать на кнопку "Категория" с выпадающим списком
+    - Нажать на кнопку "Следующая" несколько раз     
   expected-result: |
     Список категорий должен быть полным и не меняться при перелистывании страниц с товаром. Нужен общий фильтр по категориям по всему товару на сайте
   actual-result: |
@@ -71,6 +71,7 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
+    - Перейти в корзину
   expected-result: |
     Должна быть регистрация на сайте
   actual-result: |
@@ -82,7 +83,7 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Перейти в корзину
+    - Перейти в корзину
   expected-result: |
     Просмотр истории заказов
   actual-result: |
@@ -94,9 +95,9 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Выбрать несколько товаров и нажать кнопку "В корзину"
-    Перейти в корзину
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Выбрать несколько товаров и нажать кнопку "В корзину"
+    - Перейти в корзину
   expected-result: |
     Количество заказываемых товаров отображено в столбик 
   actual-result: |
@@ -109,11 +110,11 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Выбрать любой товар и нажать кнопку "В корзину".
-    Перейти в корзину.
-    Нажать кнопку оформить заказ.  
-    Закрыть диалоговое окно на кнопку "Закрыть"
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Выбрать любой товар и нажать кнопку "В корзину".
+    - Перейти в корзину.
+    - Нажать кнопку оформить заказ.  
+    - Закрыть диалоговое окно на кнопку "Закрыть"
   expected-result: |
     Пустая корзина
   actual-result: |
@@ -125,11 +126,11 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Выбрать любой товар и нажать кнопку "В корзину".
-    Перейти в корзину.
-    Нажать кнопку оформить заказ.  
-    Нажать кнопку "Крестик" в диалоговом окне
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Выбрать любой товар и нажать кнопку "В корзину".
+    - Перейти в корзину.
+    - Нажать кнопку оформить заказ.  
+    - Нажать кнопку "Крестик" в диалоговом окне
   expected-result: |
     Окно закрывается
   actual-result: |
@@ -141,8 +142,8 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Выбрать любую категорию в выпадающем списке. 
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Выбрать любую категорию в выпадающем списке. 
   expected-result: |
     Есть кнопка сброса фильтра категории
   actual-result: |
@@ -154,9 +155,9 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Нажать кнопку "Следующая"/"Next" столько, чтоб дойти до конца списка
-    Нажать кнопку "Предыдущая"/"Previous" столько, чтоб дойти до начала списка
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Нажать кнопку "Следующая"/"Next" столько, чтоб дойти до конца списка
+    - Нажать кнопку "Предыдущая"/"Previous" столько, чтоб дойти до начала списка
   expected-result: |
     Количество страниц и товар совпал при перелистывании "вперед" и "назад"
   actual-result: |
@@ -168,11 +169,11 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Добавить любой товар в корзину, нажав на кнопку "В корзину"/"Add to cart"
-    Перейти в корзину, нажав кнопку "Корзина"/"Cart"
-    Нажать на кнопку "Очистить корзину"/"Clear cart"
-    Обновить страницу    
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Добавить любой товар в корзину, нажав на кнопку "В корзину"/"Add to cart"
+    - Перейти в корзину, нажав кнопку "Корзина"/"Cart"
+    - Нажать на кнопку "Очистить корзину"/"Clear cart"
+    - Обновить страницу    
   expected-result: |
     Корзина пуста
   actual-result: |
@@ -184,9 +185,9 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Нажать на кнопку "Language" с выпадающим списком и выбрать "Russian"
-    Перейти в корзину, нажав на кнопку "Корзина"/"Cart"
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Нажать на кнопку "Language" с выпадающим списком и выбрать "Russian"
+    - Перейти в корзину, нажав на кнопку "Корзина"/"Cart"
   expected-result: |
     Язык страницы русский
   actual-result: |
@@ -198,8 +199,8 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Перейти в корзину, нажав на кнопку "Корзина"/"Cart"
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Перейти в корзину, нажав на кнопку "Корзина"/"Cart"
   expected-result: |
     Должно быть понятно что это за цифры
   actual-result: |
@@ -212,8 +213,8 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Нажать кнопку "Следующая"/"Next" 
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Нажать кнопку "Следующая"/"Next" 
   expected-result: |
     Названия товара написаны по-разному с прописной буквы, с заглавной, все слова заглавными буквами
   actual-result: |
@@ -226,10 +227,10 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    Нажать на кнопку "Language"/"Язык" с выпадающим списком
-    Нажать на кнопку "Категория" с выпадающим списком
-    Кликнуть на произвольную точку страницы
+    - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    - Нажать на кнопку "Language"/"Язык" с выпадающим списком
+    - Нажать на кнопку "Категория" с выпадающим списком
+    - Кликнуть на произвольную точку страницы
   expected-result: |
     Выпадающий список закрылся
   actual-result: |
