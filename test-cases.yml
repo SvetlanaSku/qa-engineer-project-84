@@ -84,7 +84,7 @@
   test-data: |
     - iPhone SE
     - Samsung Galaxy A51/71
-      steps:
+  steps:
     - Проверяем как будет выглядеть страница на мобильных устройствах iPhone SE, Samsung Galaxy A51/71
   expected-result: |
     Сайт должен быть читабелен, кнопки удобно располагаются  
