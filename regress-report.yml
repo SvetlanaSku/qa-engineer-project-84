@@ -27,11 +27,11 @@ test-cases:
   - summary: |
       Проверка адаптивности сайта для мобильного устройства
     status: pass
-
+    
   - summary: |
       Проверка работы кнопок перелистывания товара
-   status: pass
-
+    status: pass
+   
   - summary: |
       Проверка работы кнопки "Очистить корзину" 
     status: fail
