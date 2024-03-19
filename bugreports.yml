@@ -12,6 +12,19 @@
     Верстка страницы смещена влево
 
 - summary: |
+    Чек-бокс "В наличии"/"In Stock" работает некорректно
+  environment: |
+    https://hexlet-products-store.vercel.app/
+    PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)    
+  steps-to-reproduce: |
+    - Пройти по ссылке на сайт https://hexlet-products-store.vercel.app/
+    - Нажать на кнопку "В наличии"/"In Stock"
+  expected-result: |
+    Товары на сайте должны отображаться при убранной галочке  
+  actual-result: |
+    Товары не отображаются 
+
+- summary: |
     При загрузке сайта открывается английская версия
   environment: |
     https://hexlet-products-store.vercel.app/
