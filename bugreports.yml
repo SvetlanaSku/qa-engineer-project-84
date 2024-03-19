@@ -1,5 +1,17 @@
 ---
 - summary: |
+    Главная страница не отцентрована
+  environment: |
+    https://hexlet-products-store.vercel.app/
+    PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
+  steps-to-reproduce: |
+    - Пройти по ссылке на сайт https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Сайт должен пропорционаньно выглядеть
+  actual-result: |
+    Верстка страницы смещена влево
+
+- summary: |
     При загрузке сайта открывается английская версия
   environment: |
     https://hexlet-products-store.vercel.app/
