@@ -5,6 +5,7 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
+    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   expected-result: |
     Сайт должен пропорционаньно выглядеть
   actual-result: |
