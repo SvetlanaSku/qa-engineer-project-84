@@ -5,7 +5,7 @@
     https://hexlet-products-store.vercel.app/
     PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
   steps-to-reproduce: |
-   expected-result: |
+  expected-result: |
     Сайт должен пропорционаньно выглядеть
   actual-result: |
     Верстка страницы смещена влево
