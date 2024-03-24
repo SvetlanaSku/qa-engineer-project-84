@@ -8,7 +8,7 @@
   status: fail
 
 - summary: |
-    Добавления товара в корзину
+    Добавление товара в корзину
   status: pass
 
 - summary: |
