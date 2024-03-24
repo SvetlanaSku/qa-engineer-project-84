@@ -42,20 +42,6 @@ test-cases:
     
 bugreports:
 - summary: |
-    Ошибка 500 при оформлении заказа 
-  environment: |
-    https://hexlet-products-store.vercel.app/
-    PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
-  steps-to-reproduce: |
-    - Положить товар в корзину
-    - Открыть Devtools
-    - Нажать кнопку Оформить заказ
-  expected-result: |
-    Ответ на запрос 200
-  actual-result: |
-    Ответ на запрос 500
-    
-- summary: |
     Не очищается корзина после оформления заказа
   environment: |
     https://hexlet-products-store.vercel.app/
@@ -112,19 +98,6 @@ bugreports:
       Каталог можно перелистывать с помощью кнопки "Следующая"/"Next"
     actual-result: |
       Кнопка "Следующая"/"Next" пропала
-
-  - summary: |
-      Фильтр товара по цене показывает товар меньшей стоимости
-    environment: |
-      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
-      PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
-    steps-to-reproduce: |
-      - Открыть главную страницу сайта
-      - Ввести сумму "От" (Например 500)
-    expected-result: |
-      Товары отфильтрованы от введенной суммы
-    actual-result: |
-      Отображены товары меньшей стоимости чем задано в поле "От"
 
   - summary: |
       Не работает рагистрация через GitHub 
