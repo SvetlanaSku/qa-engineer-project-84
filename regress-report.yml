@@ -1,15 +1,15 @@
 ---
 test-cases:
   - summary: |
-      Проверка поиска товара по ключевому слову
+      Поиск товара по ключевому слову
     status: pass
 
   - summary: |
-      Проверка переключения языка на сайте
+      Переключение языка на сайте
     status: fail
 
   - summary: |
-      Проверка функции добавления товара в корзину
+      Добавление товара в корзину
     status: pass
 
   - summary: |
@@ -17,23 +17,23 @@ test-cases:
     status: fail
 
   - summary: |
-      Проверка фильтрации товара по категории из выпадающего списка
+      Фильтрация товара по категории из выпадающего списка
     status: pass
 
   - summary: |
-      Проверка фильтрации товара по производителям из списка чек-боксов
+      Фильтрация товара по бренду
     status: fail
 
   - summary: |
-      Проверка адаптивности сайта для мобильного устройства
+      Адаптивность сайта для мобильного устройства
     status: pass
     
   - summary: |
-      Проверка работы кнопок перелистывания товара
+      Проверка перехода по страницам каталога
     status: pass
    
   - summary: |
-      Проверка работы кнопки "Очистить корзину" 
+      Работа кнопки "Очистить корзину" 
     status: fail
     
 bugreports:
@@ -43,9 +43,9 @@ bugreports:
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
     steps-to-reproduce: |
-      - Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
-      - Отмечаем галочкой при помощи нажатия чек-бокса
-      - Выбираем 1, 2 и более производителей
+      - Открыть главную страницу сайта
+      - Отметить галочкой при помощи нажатия чек-бокса 
+      - Выбрать 1, 2 и более производителей
     expected-result: |
       Сайт должен отобразить товары выбранных производителей и убрать фильтрацию при отмене
     actual-result: |
@@ -57,7 +57,7 @@ bugreports:
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
     steps-to-reproduce: |
-      - Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      - Открыть главную страницу сайта
       - Нажимаем кнопку с выпадающим списком
       - Выбираем любую категорию
     expected-result: |
@@ -71,7 +71,7 @@ bugreports:
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
     steps-to-reproduce: |
-      - Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
+      - Открыть главную страницу сайта
       - Нажать на название товара
     expected-result: |
       Открыта карточка товара
@@ -84,9 +84,9 @@ bugreports:
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
     steps-to-reproduce: |
-      - Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
-      - Нажимаем кнопку с выпадающим списком
-      - Выбираем любую категорию
+      - Открыть главную страницу сайта
+      - Нажать кнопку с выпадающим списком
+      - Выбрать любую категорию
       - Выбираем пустое поле для отмены фильтрации
     expected-result: |
       Каталог можно перелистывать с помощью кнопки "Следующая"/"Next"
