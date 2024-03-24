@@ -57,74 +57,74 @@ bugreports:
   actual-result: |
     Все товары остались в корзине
     
-  - summary: |
+- summary: |
       Не работает фильтр по производителю
-    environment: |
+  environment: |
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       - Открыть главную страницу сайта
       - Отметить галочкой при помощи нажатия чек-бокса 
       - Выбрать 1, 2 и более производителей
-    expected-result: |
+  expected-result: |
       Сайт должен отобразить товары выбранных производителей и убрать фильтрацию при отмене
-    actual-result: |
+  actual-result: |
       Фильтрации товара не происходит
 
-  - summary: |
+- summary: |
       Не открывается карточка товара при нажатии на название товара
-    environment: |
+  environment: |
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       - Открыть главную страницу сайта
       - Нажать на название товара
-    expected-result: |
+  expected-result: |
       Открыта карточка товара
-    actual-result: |
+  actual-result: |
       Карточка товара не открывается
 
-  - summary: |
+- summary: |
       Пропадает кнопка перелистывания товара после фильтрации по  по категориям
-    environment: |
+  environment: |
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       - Открыть главную страницу сайта
       - Нажать кнопку с выпадающим списком
       - Выбрать любую категорию
       - Выбираем пустое поле для отмены фильтрации
-    expected-result: |
+  expected-result: |
       Каталог можно перелистывать с помощью кнопки "Следующая"/"Next"
-    actual-result: |
+  actual-result: |
       Кнопка "Следующая"/"Next" пропала
 
-  - summary: |
+- summary: |
       Не работает рагистрация через GitHub 
-    environment: |
+  environment: |
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       - Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       - Нажимаем кнопку "Loggin in" 
       - Нажать продолжить c GitHub       
-    expected-result: |
+  expected-result: |
       Регистрация пройдена
-    actual-result: |
+  actual-result: |
       Пишет:Уже существует учетная запись, связанная с вашим адресом электронной почты GitHub
       Ошибка изображена на скриншоте Регистрация git Hab.PNG
 
-  - summary: |
+- summary: |
       Не работает рагистрация через GitLab 
-    environment: |
+  environment: |
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       PC. Версия 122.0.6261.128 (Официальная сборка), (64 бит)
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       - Открыть главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/cart
       - Нажимаем кнопку "Loggin in" 
       - Нажать продолжить работу c Gitlab       
-    expected-result: |
+  expected-result: |
       Регистрация пройдена
-    actual-result: |
+  actual-result: |
       Регистрация в РФ невозможна
       Ошибка изображена на скриншоте Регистрация gitLab.PNG
