@@ -21,6 +21,10 @@ test-cases:
     status: pass
 
   - summary: |
+      Отмена фильтрации товара по категории из выпадающего списка
+    status: pass
+
+  - summary: |
       Фильтрация товара по бренду
     status: fail
 
